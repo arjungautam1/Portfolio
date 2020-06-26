@@ -508,5 +508,10 @@ header {
 }
 
 
-
-/*  */
+.figure{
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: #16e0bd;
+    font-weight: var(--fw-bold);
+    
+}
