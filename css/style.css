@@ -172,6 +172,7 @@ header {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
+   
 }
 
 .nav__link:hover {
@@ -421,11 +422,11 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-light);
     overflow: hidden;
 }
 
