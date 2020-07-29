@@ -456,6 +456,7 @@ header {
     text-align: center;
     padding: 2.5em 0 ;
     font-size: var(--fs-h3);
+    
 
 }
 
@@ -483,10 +484,13 @@ header {
     justify-content: center;
     margin: 2em 0 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
 }
 
 .social-list__item {
     margin: 0 .5em;
+  
 }
 
 .social-list__link {
