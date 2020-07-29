@@ -59,11 +59,11 @@ img {
 }
 
 strong { font-weight: var(--fw-bold) }
-
+/* 
 :focus {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
-}
+} 
 
 /* Buttons */
 
@@ -385,7 +385,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
 }
 
 .portfolio__item {
@@ -484,8 +484,6 @@ header {
     justify-content: center;
     margin: 2em 0 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
 }
 
 .social-list__item {
